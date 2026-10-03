@@ -10,7 +10,7 @@ Scaffold commit `d0cc593137209d1f952c13b3059bfe9c06f03838` passed [Ubuntu CI](ht
 
 `docs/import-manifest.json` enumerates the 24 explicitly copied source/test files and source SHA-256 values, plus the three narrowly adapted helper sources. No whole source directory or git history was imported. No commercial presets, binaries, extracted resources, or plugin-rendered audio are present. Tests synthesize their WAV data. The commercial-product scan below was reviewed: every hit is a format/API name, descriptor compatibility explanation, or synthetic format test, not a plugin scanner, disassembly detail, or crash narrative. False matches on “variant” are enum commentary.
 
-`git log --all --name-only --format=` was inspected: no history path matches `serum2_uidesc|\.fxp$|\.nki$|\.vital$|\.vstpreset$|\.vst3/`. The allowlist and working-tree package list also contain none of these paths. This check must be repeated on committed imported history before publication.
+`git log --all --name-only --format=` was inspected: no history path matches `serum2_uidesc|\.fxp$|\.nki$|\.vital$|\.vstpreset$|\.vst3/`. The allowlist and working-tree package list also contain none of these paths. Repeated after the import commit: all committed history paths remain free of those matches.
 
 Commercial-product scan (`serum|omnisphere|kontakt|vital|chipsynth|aria|spire|addictive|manis`, case-insensitive, src and tests):
 
@@ -71,6 +71,7 @@ Cargo.toml.orig
 LICENSE
 README.md
 docs/golden-baseline.json
+docs/import-manifest.json
 docs/naming-decision.md
 docs/publication-audit.md
 src/builder.rs
@@ -102,7 +103,6 @@ tests/format_serde_tests.rs
 tests/format_validation_tests.rs
 tests/golden_tests.rs
 tests/support/fixture.rs
-
 ```
 
 `cargo tree` succeeded and lists no ms-*, lotel-*, tauri, or specta crate. There are no path or git dependencies. `cargo license --json` succeeded. Every dependency offers MIT; unicode-ident also requires the permissive Unicode-3.0 notice. r-efi's LGPL alternative is not selected: MIT is offered. No copyleft-only dependency is included.
@@ -163,4 +163,4 @@ The user accepted preserving the existing naming behavior: rr0 inputs parse, rr1
 
 ## Publication decision and release
 
-Local L3 and L5 checks passed. Explicit user approval of this completed audit before the first imported-code push is pending. No imported code has been published. The standard review, thermonuclear review, final exact-revision Ubuntu CI check, and annotated v0.1.0 tag remain pending.
+Local L3 and L5 checks passed. Explicit user approval of this completed audit before the first imported-code push is pending. No imported code has been published. Both independent standard reviewers approved with zero Critical or Important findings. Three deduplicated documentation suggestions were applied. The all-features suite also passed on Rust 1.93. The first standard-review push checkpoint, thermonuclear review, final exact-revision Ubuntu CI check, and annotated v0.1.0 tag remain pending.

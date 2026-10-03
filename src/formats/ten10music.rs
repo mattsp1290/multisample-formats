@@ -7,8 +7,8 @@ use crate::util::sanitize_filename;
 
 /// Exports instruments for 1010music devices (Blackbox, Bluebox, Nanobox).
 ///
-/// Produces a folder structure with preset.xml and WAV files in the
-/// expected directory layout for 1010music samplers.
+/// Writes `preset.xml` and creates an empty `samples` directory.
+/// This inherent export method does not copy WAVs; callers copy them separately.
 pub struct Ten10MusicExporter;
 
 // 1010music is not in ExportFormat enum yet, so we'll use WavBundle as a stand-in

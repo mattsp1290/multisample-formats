@@ -16,7 +16,8 @@ pub enum ExportFormat {
 }
 
 impl ExportFormat {
-    /// File extension for this format.
+    /// Conventional target-format extension, retained from the source API.
+    /// This can differ from the file actually written by the current exporter.
     pub fn extension(&self) -> &'static str {
         match self {
             Self::Sfz => "sfz",

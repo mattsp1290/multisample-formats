@@ -16,7 +16,8 @@ use crate::util::sanitize_filename;
 /// - sdta chunk: sample data (raw PCM)
 /// - pdta chunk: preset/instrument/zone headers
 ///
-/// This implementation generates a minimal SF2 file structure
+/// This implementation embeds no input WAV audio and produces no playable
+/// sample content. It generates a minimal SF2 file structure
 /// with the correct RIFF headers and zone mappings.
 pub struct Sf2Exporter;
 

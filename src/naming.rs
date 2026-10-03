@@ -1,5 +1,3 @@
-/// Parse a note name like "C4", "F#5", "C-1" back to a MIDI note number.
-/// Returns None if the name cannot be parsed.
 /// Convert a MIDI note number (0-127) to a human-readable name like "C4" or "F#5".
 pub fn note_number_to_name(note: u8) -> String {
     const NAMES: [&str; 12] = [
@@ -10,6 +8,8 @@ pub fn note_number_to_name(note: u8) -> String {
     format!("{name}{octave}")
 }
 
+/// Parse a note name like "C4", "F#5", or "C-1" into a MIDI note number.
+/// Returns `None` for an unrecognized name or a note outside 0–127.
 pub fn note_name_to_number(name: &str) -> Option<u8> {
     if name.is_empty() {
         return None;

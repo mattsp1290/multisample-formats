@@ -9,11 +9,10 @@ use crate::model::Instrument;
 use crate::traits::{ExportError, FormatExporter};
 use crate::util::sanitize_filename;
 
-/// Exports instruments to Bitwig .multisample format.
+/// Writes a Bitwig `multisample.xml` descriptor.
 ///
-/// Bitwig multisample is a ZIP archive containing:
-/// - multisample.xml (metadata and zone mappings)
-/// - WAV sample files
+/// This implementation does not create a ZIP `.multisample` archive.
+/// Direct export writes metadata only; the registry copies external samples.
 pub struct BitwigExporter;
 
 impl FormatExporter for BitwigExporter {
