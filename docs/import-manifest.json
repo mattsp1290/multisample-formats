@@ -1,0 +1,130 @@
+{
+  "source_revision": "a2207788282cf943d9d12cfeab63b4897af808b2",
+  "files": [
+    {
+      "source": "crates/ms-export/src/lib.rs",
+      "destination": "src/lib.rs",
+      "source_sha256": "3142b714d2bc6aed83cdb96bb50f5857ae46ebbb350306a8d30c8b46b5655234"
+    },
+    {
+      "source": "crates/ms-export/src/builder.rs",
+      "destination": "src/builder.rs",
+      "source_sha256": "92a51e4aca5aafdaa3a671a5d5c227d79a269ec99c03005b22fa46da39258110"
+    },
+    {
+      "source": "crates/ms-export/src/model.rs",
+      "destination": "src/model.rs",
+      "source_sha256": "49b4ecd5ea17b6d7b5ce5056067246b5354a8837ad1d469ac5fc4d35923cd0f8"
+    },
+    {
+      "source": "crates/ms-export/src/registry.rs",
+      "destination": "src/registry.rs",
+      "source_sha256": "be4519e0dc1d9a8678cd6ff75009d1f80797c765f3a9b16b825bdcd4fa99c960"
+    },
+    {
+      "source": "crates/ms-export/src/traits.rs",
+      "destination": "src/traits.rs",
+      "source_sha256": "9be884a68a94ee0fe0f9fa49ab157dcc46a484832e7a12fb33537c79f0906379"
+    },
+    {
+      "source": "crates/ms-export/src/util.rs",
+      "destination": "src/util.rs",
+      "source_sha256": "eb2a6b33d186dc0762856079b3c73159d06e51179bf600ac688f607606dbccbb"
+    },
+    {
+      "source": "crates/ms-export/src/formats/mod.rs",
+      "destination": "src/formats/mod.rs",
+      "source_sha256": "9cb48d2b860ef06719bd522f6657ecaf11d1b56bb57df63ec4f472ee4ae7b11f"
+    },
+    {
+      "source": "crates/ms-export/src/formats/ableton.rs",
+      "destination": "src/formats/ableton.rs",
+      "source_sha256": "6dbd98b8005ec92879a398cd70006dc3d8b40e8cd0d0e34271af533f5bf40f40"
+    },
+    {
+      "source": "crates/ms-export/src/formats/bitwig.rs",
+      "destination": "src/formats/bitwig.rs",
+      "source_sha256": "3dc8753a94ef1885c05271e8e0ea70db7f57273b103d6fdfbb1162bca48686d4"
+    },
+    {
+      "source": "crates/ms-export/src/formats/decent_sampler.rs",
+      "destination": "src/formats/decent_sampler.rs",
+      "source_sha256": "f804aa1f768c3df28856c7ebb53875fb2b4f321f1d05b6a843fe9ba27d4588cf"
+    },
+    {
+      "source": "crates/ms-export/src/formats/exs24.rs",
+      "destination": "src/formats/exs24.rs",
+      "source_sha256": "4122cbccbd68c378c930c92a2e24fce471f61ed1701b4e202dbc25cde556b0eb"
+    },
+    {
+      "source": "crates/ms-export/src/formats/korg.rs",
+      "destination": "src/formats/korg.rs",
+      "source_sha256": "6775817b2c30955fe1259e4a23c43d06063ddc4647226171f518753310d4ad41"
+    },
+    {
+      "source": "crates/ms-export/src/formats/mpc_keygroup.rs",
+      "destination": "src/formats/mpc_keygroup.rs",
+      "source_sha256": "3357642fbc05666023365bf5b7ac3f2503f2d76319bddd1c68b7228a4fb9420f"
+    },
+    {
+      "source": "crates/ms-export/src/formats/nki.rs",
+      "destination": "src/formats/nki.rs",
+      "source_sha256": "cfb103de0dd67cd44489ef47c142f1b3cd24762648623a3c668826a1ae988782"
+    },
+    {
+      "source": "crates/ms-export/src/formats/nnxt.rs",
+      "destination": "src/formats/nnxt.rs",
+      "source_sha256": "86d1d186ee869722add0d110dd60e0087dc36000e1e2c2bdcdbbeb5ae83e2ab5"
+    },
+    {
+      "source": "crates/ms-export/src/formats/op_xy.rs",
+      "destination": "src/formats/op_xy.rs",
+      "source_sha256": "26a3627ce2a23bc5c977e3e5857de5c00b9be5ae6a758a1fd191b416f6104e12"
+    },
+    {
+      "source": "crates/ms-export/src/formats/sf2.rs",
+      "destination": "src/formats/sf2.rs",
+      "source_sha256": "31850726137cc48900699b284d0230a41b34ac16d7bcced2fcbf11011ec4414e"
+    },
+    {
+      "source": "crates/ms-export/src/formats/sfz.rs",
+      "destination": "src/formats/sfz.rs",
+      "source_sha256": "c8ffd913803264c7ec7d5b94b34ccf6b32b4cfd4c7af003c4deefcef0b443ce6"
+    },
+    {
+      "source": "crates/ms-export/src/formats/tal.rs",
+      "destination": "src/formats/tal.rs",
+      "source_sha256": "a0d9daa5e86196ccf959e5d0dec7c430409b8190bd4fb043081be4c7c65593af"
+    },
+    {
+      "source": "crates/ms-export/src/formats/ten10music.rs",
+      "destination": "src/formats/ten10music.rs",
+      "source_sha256": "86f29cfcec4e9a05eac81c54ea7bc1030a439584dbdf564e80a0b898c9afe892"
+    },
+    {
+      "source": "crates/ms-export/src/formats/tonverk.rs",
+      "destination": "src/formats/tonverk.rs",
+      "source_sha256": "63d3335876f1ad95a3a6ff61b9a9e2ea1a306b6c8591ddf9065b6ba14b7cdb38"
+    },
+    {
+      "source": "crates/ms-export/src/formats/tx16wx.rs",
+      "destination": "src/formats/tx16wx.rs",
+      "source_sha256": "5fd443b12e6bfc46e5f42f3947b411a19ce99e85616b079c050c015767457479"
+    },
+    {
+      "source": "crates/ms-export/src/formats/wav_bundle.rs",
+      "destination": "src/formats/wav_bundle.rs",
+      "source_sha256": "6b8a0e754017b7773f63e1747694d472b32884feca3283168ac774a183f857f4"
+    },
+    {
+      "source": "crates/ms-export/tests/format_validation_tests.rs",
+      "destination": "tests/format_validation_tests.rs",
+      "source_sha256": "d5452dd3656c5d220aafa2a0c95a80604b88c273211d8da30ab2bd22b5397eb7"
+    }
+  ],
+  "adapted_helpers": [
+    "crates/ms-core/src/export.rs: ExportFormat enum and four methods only",
+    "crates/ms-core/src/midi.rs: three naming functions and three relevant tests",
+    "crates/ms-audio/src/orchestrator.rs: sample_filename function only"
+  ]
+}

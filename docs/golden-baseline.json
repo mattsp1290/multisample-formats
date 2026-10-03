@@ -1,0 +1,238 @@
+{
+  "source_revision": "a2207788282cf943d9d12cfeab63b4897af808b2",
+  "flate2": "1.1.9",
+  "exporter_count": 16,
+  "not_byte_comparable": [],
+  "files": [
+    {
+      "path": "1010music/Golden Sine/preset.xml",
+      "comparison": "sha256",
+      "sha256": "4837ae30eec4f73305d1da9bd2592afab8a57611324350df659eb94b3c5be186"
+    },
+    {
+      "path": "Ableton/Golden Sine/Golden Sine.adg",
+      "comparison": "sha256-decompressed-gzip",
+      "sha256": "555cfd995c66dcc39beb35a77b74f18c00f15449619d4c66e922b6c3d259261e"
+    },
+    {
+      "path": "Ableton/Golden Sine/Samples/note_48.wav",
+      "comparison": "sha256",
+      "sha256": "4f7041e66c2e6f26c40a7576f020369f139c622e8833fc1ebb3b757986ec0d2e"
+    },
+    {
+      "path": "Ableton/Golden Sine/Samples/note_60.wav",
+      "comparison": "sha256",
+      "sha256": "a5bccc88420da903d3e2911cf9286507e30aeda1b11450ccf6c3513a8528f5da"
+    },
+    {
+      "path": "Ableton/Golden Sine/Samples/note_72.wav",
+      "comparison": "sha256",
+      "sha256": "c319f41d447106a9978243de2dbdf5b31a47cbe3935a4870557c3f11e16aa569"
+    },
+    {
+      "path": "Bitwig/Golden Sine/multisample.xml",
+      "comparison": "sha256",
+      "sha256": "d0fb1b39b3f7193e6d8098d01f71f2b04fc0096b9aae0ecd11a4a764b51aea0c"
+    },
+    {
+      "path": "Bitwig/Golden Sine/samples/note_48.wav",
+      "comparison": "sha256",
+      "sha256": "4f7041e66c2e6f26c40a7576f020369f139c622e8833fc1ebb3b757986ec0d2e"
+    },
+    {
+      "path": "Bitwig/Golden Sine/samples/note_60.wav",
+      "comparison": "sha256",
+      "sha256": "a5bccc88420da903d3e2911cf9286507e30aeda1b11450ccf6c3513a8528f5da"
+    },
+    {
+      "path": "Bitwig/Golden Sine/samples/note_72.wav",
+      "comparison": "sha256",
+      "sha256": "c319f41d447106a9978243de2dbdf5b31a47cbe3935a4870557c3f11e16aa569"
+    },
+    {
+      "path": "DecentSampler/Golden Sine/Golden Sine.dspreset",
+      "comparison": "sha256",
+      "sha256": "dff3cbeeef4355810fdce5c50b31a6e4ef9fd4a3d9502c50df1d3b2f8fb81556"
+    },
+    {
+      "path": "DecentSampler/Golden Sine/samples/note_48.wav",
+      "comparison": "sha256",
+      "sha256": "4f7041e66c2e6f26c40a7576f020369f139c622e8833fc1ebb3b757986ec0d2e"
+    },
+    {
+      "path": "DecentSampler/Golden Sine/samples/note_60.wav",
+      "comparison": "sha256",
+      "sha256": "a5bccc88420da903d3e2911cf9286507e30aeda1b11450ccf6c3513a8528f5da"
+    },
+    {
+      "path": "DecentSampler/Golden Sine/samples/note_72.wav",
+      "comparison": "sha256",
+      "sha256": "c319f41d447106a9978243de2dbdf5b31a47cbe3935a4870557c3f11e16aa569"
+    },
+    {
+      "path": "EXS24/Golden Sine/Golden Sine.exs24.json",
+      "comparison": "sha256",
+      "sha256": "53897d154e0c80d4b1195153962686c7c10a8224156bf0afdbef19f7fd1de24a"
+    },
+    {
+      "path": "Kontakt/Golden Sine/Golden Sine.nicnt",
+      "comparison": "sha256",
+      "sha256": "5c0144e705301fc73f86631c947d5f710e9d1102f04189c088542a5d179ac6b4"
+    },
+    {
+      "path": "Kontakt/Golden Sine/Samples/note_48.wav",
+      "comparison": "sha256",
+      "sha256": "4f7041e66c2e6f26c40a7576f020369f139c622e8833fc1ebb3b757986ec0d2e"
+    },
+    {
+      "path": "Kontakt/Golden Sine/Samples/note_60.wav",
+      "comparison": "sha256",
+      "sha256": "a5bccc88420da903d3e2911cf9286507e30aeda1b11450ccf6c3513a8528f5da"
+    },
+    {
+      "path": "Kontakt/Golden Sine/Samples/note_72.wav",
+      "comparison": "sha256",
+      "sha256": "c319f41d447106a9978243de2dbdf5b31a47cbe3935a4870557c3f11e16aa569"
+    },
+    {
+      "path": "Korg/Golden Sine/Golden Sine.korgmultisample.json",
+      "comparison": "sha256",
+      "sha256": "a7c92f7aa43b9c84476884e7c906e9e72098001ae66ea56b80c65f28b99bb777"
+    },
+    {
+      "path": "Korg/Golden Sine/samples/note_48.wav",
+      "comparison": "sha256",
+      "sha256": "4f7041e66c2e6f26c40a7576f020369f139c622e8833fc1ebb3b757986ec0d2e"
+    },
+    {
+      "path": "Korg/Golden Sine/samples/note_60.wav",
+      "comparison": "sha256",
+      "sha256": "a5bccc88420da903d3e2911cf9286507e30aeda1b11450ccf6c3513a8528f5da"
+    },
+    {
+      "path": "Korg/Golden Sine/samples/note_72.wav",
+      "comparison": "sha256",
+      "sha256": "c319f41d447106a9978243de2dbdf5b31a47cbe3935a4870557c3f11e16aa569"
+    },
+    {
+      "path": "MPC Keygroup/Golden Sine/Golden Sine.xpm",
+      "comparison": "sha256",
+      "sha256": "c8b64cb44ee033df3d8467afabb10284444bc6be1a989441958c75cff3cc57af"
+    },
+    {
+      "path": "MPC Keygroup/Golden Sine/Samples/note_48.wav",
+      "comparison": "sha256",
+      "sha256": "4f7041e66c2e6f26c40a7576f020369f139c622e8833fc1ebb3b757986ec0d2e"
+    },
+    {
+      "path": "MPC Keygroup/Golden Sine/Samples/note_60.wav",
+      "comparison": "sha256",
+      "sha256": "a5bccc88420da903d3e2911cf9286507e30aeda1b11450ccf6c3513a8528f5da"
+    },
+    {
+      "path": "MPC Keygroup/Golden Sine/Samples/note_72.wav",
+      "comparison": "sha256",
+      "sha256": "c319f41d447106a9978243de2dbdf5b31a47cbe3935a4870557c3f11e16aa569"
+    },
+    {
+      "path": "NNXT/Golden Sine/Golden Sine.sxt",
+      "comparison": "sha256",
+      "sha256": "470d4a3e4619a88c8b8c6a77b0bfb80c67f1ada08b9c68f51f766a5669d2af97"
+    },
+    {
+      "path": "OP-XY/Golden Sine/Golden Sine.opxy.json",
+      "comparison": "sha256",
+      "sha256": "df12829fe28c72e2267ad760cffe6024d42af5f805697b9bd25f7d1ccf39cb6a"
+    },
+    {
+      "path": "OP-XY/Golden Sine/samples/note_48.wav",
+      "comparison": "sha256",
+      "sha256": "4f7041e66c2e6f26c40a7576f020369f139c622e8833fc1ebb3b757986ec0d2e"
+    },
+    {
+      "path": "OP-XY/Golden Sine/samples/note_60.wav",
+      "comparison": "sha256",
+      "sha256": "a5bccc88420da903d3e2911cf9286507e30aeda1b11450ccf6c3513a8528f5da"
+    },
+    {
+      "path": "OP-XY/Golden Sine/samples/note_72.wav",
+      "comparison": "sha256",
+      "sha256": "c319f41d447106a9978243de2dbdf5b31a47cbe3935a4870557c3f11e16aa569"
+    },
+    {
+      "path": "SF2/Golden Sine/Golden Sine.sf2",
+      "comparison": "sha256",
+      "sha256": "92581a99f08ce8e9c6dd08b479cc2b3ef44cc218e16adfe03e772461a0ea7e14"
+    },
+    {
+      "path": "SFZ/Golden Sine/Golden Sine.sfz",
+      "comparison": "sha256",
+      "sha256": "46544926635621c2fc713a6b85758f400f60ab1e6291459c05f830879c4af152"
+    },
+    {
+      "path": "SFZ/Golden Sine/samples/note_48.wav",
+      "comparison": "sha256",
+      "sha256": "4f7041e66c2e6f26c40a7576f020369f139c622e8833fc1ebb3b757986ec0d2e"
+    },
+    {
+      "path": "SFZ/Golden Sine/samples/note_60.wav",
+      "comparison": "sha256",
+      "sha256": "a5bccc88420da903d3e2911cf9286507e30aeda1b11450ccf6c3513a8528f5da"
+    },
+    {
+      "path": "SFZ/Golden Sine/samples/note_72.wav",
+      "comparison": "sha256",
+      "sha256": "c319f41d447106a9978243de2dbdf5b31a47cbe3935a4870557c3f11e16aa569"
+    },
+    {
+      "path": "TAL/Golden Sine/Golden Sine.talsmpl",
+      "comparison": "sha256",
+      "sha256": "bbdeafa6b2ce8646e061605c8f8a61cb9ca6b9b53315c896661d516e609c4fc9"
+    },
+    {
+      "path": "TX16Wx/Golden Sine/Golden Sine.txprog",
+      "comparison": "sha256",
+      "sha256": "e9e44791911aef920f4dbd347e78c6f7375197edae15d50ad83eb8f846a09bdc"
+    },
+    {
+      "path": "Tonverk/Golden Sine/Golden Sine.elmulti",
+      "comparison": "sha256",
+      "sha256": "53e56c2a35b7472316e14331b5ce86140a1be241fc9b5f6b900f873240d9c0f6"
+    },
+    {
+      "path": "Tonverk/Golden Sine/samples/note_48.wav",
+      "comparison": "sha256",
+      "sha256": "4f7041e66c2e6f26c40a7576f020369f139c622e8833fc1ebb3b757986ec0d2e"
+    },
+    {
+      "path": "Tonverk/Golden Sine/samples/note_60.wav",
+      "comparison": "sha256",
+      "sha256": "a5bccc88420da903d3e2911cf9286507e30aeda1b11450ccf6c3513a8528f5da"
+    },
+    {
+      "path": "Tonverk/Golden Sine/samples/note_72.wav",
+      "comparison": "sha256",
+      "sha256": "c319f41d447106a9978243de2dbdf5b31a47cbe3935a4870557c3f11e16aa569"
+    },
+    {
+      "path": "WAV Bundle/Golden Sine/manifest.json",
+      "comparison": "sha256",
+      "sha256": "67d9368a69792d52970601bd751cb926cb3f676b665032faaf9ee121d73e38b9"
+    },
+    {
+      "path": "WAV Bundle/Golden Sine/samples/note_48.wav",
+      "comparison": "sha256",
+      "sha256": "4f7041e66c2e6f26c40a7576f020369f139c622e8833fc1ebb3b757986ec0d2e"
+    },
+    {
+      "path": "WAV Bundle/Golden Sine/samples/note_60.wav",
+      "comparison": "sha256",
+      "sha256": "a5bccc88420da903d3e2911cf9286507e30aeda1b11450ccf6c3513a8528f5da"
+    },
+    {
+      "path": "WAV Bundle/Golden Sine/samples/note_72.wav",
+      "comparison": "sha256",
+      "sha256": "c319f41d447106a9978243de2dbdf5b31a47cbe3935a4870557c3f11e16aa569"
+    }
+  ]
+}
